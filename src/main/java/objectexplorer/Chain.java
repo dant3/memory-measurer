@@ -1,12 +1,13 @@
 package objectexplorer;
 
 import com.google.common.base.Preconditions;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.lang.reflect.Field;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Iterator;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 /**
  * A chain of references, which starts at a root object and leads to a
